@@ -6,7 +6,20 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>AI Poem Generator</title>
+    <title>Bad Poetry Generator</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Josefin+Slab&family=Meow+Script&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="src/style.css"
@@ -14,19 +27,29 @@
   </head>
   <body>
     <header>
-      <h1>AI Poem Generator</h1>
+      <h1>Bad Poetry Generator</h1>
     </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a topic..."
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div id="poem">The poem will go here (use placeholder poem?)</div>
-    </main>
+    <div class="container">
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic (e.g., death, depression, giraffes)"
+            required
+            id="topic"
+          />
+          <input
+            type="submit"
+            id="submit-button"
+          />
+        </form>
+
+        <div id="poem">
+          You thought life <br />Couldn't get any worse <br />Didn't you?
+          <br />Well, here's some poetry
+        </div>
+      </main>
+    </div>
     <footer>
       <p>
         Coded 👩‍💻 by
@@ -52,6 +75,7 @@
         >
       </p>
     </footer>
+
     <script src="src/script.js"></script>
   </body>
 </html>

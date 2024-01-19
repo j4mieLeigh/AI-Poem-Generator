@@ -1,3 +1,78 @@
 body {
+  background-color: #b5c8ba;
+  color: #450a41;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+}
+
+.container {
+  background-color: #96acb78e;
+  border-radius: 8px;
+  margin: 15px auto;
+  max-width: 600px;
+  padding: 30px;
+}
+
+h1 {
+  color: #734b5e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.5;
   text-align: center;
+}
+
+form {
+  margin: 15px;
+  text-align: center;
+}
+
+#topic {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  font-size: 16px;
+  padding: 5px;
+  margin: 0px 3px 0px 0px;
+  width: 70%;
+}
+
+#submit-button {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  font-size: 16px;
+  padding: 5px;
+  margin: 0px 0px 0px 3px;
+  width: 15%;
+}
+
+#submit-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#poem {
+  border-left: #734b5e solid 3px;
+  font-family: segoe script;
+  font-size: 22px;
+  margin: 45px 75px;
+  padding: 0px 15px;
+  line-height: 1.6;
+}
+
+footer {
+  font-size: 14px;
+  margin: 20px;
+  text-align: center;
+}
+
+a {
+  color: #ca6405;
+}
+
+a:hover {
+  color: #e94f37;
 }
