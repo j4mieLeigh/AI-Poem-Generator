@@ -1,5 +1,8 @@
 body {
-  background-color: #b5c8ba;
+  background-image: url("../images/pexels-brittany-87812.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #450a41;
   font-family: Arial, Helvetica, sans-serif;
   margin: 30px;
