@@ -58,8 +58,9 @@ form {
 
 #poem {
   border-left: #734b5e solid 3px;
+  display: block;
   font-family: segoe script;
-  font-size: 22px;
+  font-size: 18px;
   margin: 45px 75px;
   padding: 0px 15px;
   line-height: 1.6;
@@ -77,4 +78,13 @@ a {
 
 a:hover {
   color: #e94f37;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
 }
