@@ -24,6 +24,7 @@
       rel="stylesheet"
       href="src/style.css"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <header>
@@ -31,7 +32,7 @@
     </header>
     <div class="container">
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter a topic (e.g., death, depression, giraffes)"
@@ -44,10 +45,7 @@
           />
         </form>
 
-        <div id="poem">
-          You thought life <br />Couldn't get any worse <br />Didn't you?
-          <br />Well, here's some poetry
-        </div>
+        <div id="poem"></div>
       </main>
     </div>
     <footer>
