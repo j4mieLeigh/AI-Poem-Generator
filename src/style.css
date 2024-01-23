@@ -1,26 +1,24 @@
 body {
-  background-image: url("../images/pexels-brittany-87812.jpg");
+  background-image: url("../images/pexels-monstera-production-7794399.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #450a41;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 30px;
+  font-family: arial;
+  margin: 45px;
 }
 
 .container {
-  background-color: #96acb78e;
+  background-color: #f7f7f29a;
   border-radius: 8px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-
   margin: 15px auto;
   max-width: 600px;
-  padding: 30px 15px;
+  padding: 30px 10px;
 }
 
 h1 {
-  color: #734b5e;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #9e1946;
+  font-family: segoe script;
   font-size: 36px;
   font-weight: 800;
   line-height: 1.5;
@@ -60,27 +58,29 @@ form {
 }
 
 #poem {
-  border-left: #734b5e solid 3px;
+  border-left: #9e1946 solid 3px;
+  color: #450a41;
   display: block;
-  font-family: segoe script;
+  font-family: "IM Fell DW Pica", serif;
   font-size: 18px;
   margin: 45px 75px;
-  padding: 0px 15px;
+  padding: 0px 18px;
   line-height: 1.6;
 }
 
 footer {
+  color: #d7fdec;
   font-size: 14px;
   margin: 20px;
   text-align: center;
 }
 
 a {
-  color: #ca6405;
+  color: #e2b6cf;
 }
 
 a:hover {
-  color: #e94f37;
+  color: #2eef2a;
 }
 
 @keyframes blink {
